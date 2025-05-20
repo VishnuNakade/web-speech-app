@@ -1,0 +1,43 @@
+.speech-box {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 16px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 0 0 10px #000;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  background: #2a2a2a;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  resize: none;
+}
+
+.buttons {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: #3a3a3a;
+  border: none;
+  color: white;
+  padding: 10px 14px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button.round {
+  border-radius: 50%;
+  font-size: 24px;
+  width: 50px;
+  height: 50px;
+}
