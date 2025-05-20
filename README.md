@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# 🎙️ VoiceApp – Real-Time Speech-to-Text Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A sleek, responsive, and modern web application that lets you convert speech to text in real-time using the **Web Speech API**, with animated frequency bars, copy and speak functionality, and a dark-themed UI — built with **ReactJS** and **Bootstrap 5**.
 
-## Available Scripts
+## 🚀 Live Demo
 
-In the project directory, you can run:
+🌐 [Try the App Now](https://earnest-naiad-5695d0.netlify.app)
 
-### `npm start`
+## 📸 Preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![VoiceApp Screenshot](https://user-images.githubusercontent.com/your-screenshot.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🧠 Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🎤 Real-time **speech recognition**
+- 📈 **Animated frequency bars** while speaking
+- ✍️ Live **transcription** as you speak
+- 📋 One-click **copy to clipboard** with success alert
+- 🔊 **Text-to-speech** support
+- 🌙 **Dark Mode** user interface
+- 📱 **Mobile-friendly** & responsive layout
+- 🔗 **Navbar and About Page**
+- ✅ Clean, component-based architecture using React
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠️ Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [ReactJS](https://reactjs.org/)
+- [Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API)
+- [Bootstrap 5](https://getbootstrap.com/)
+- Custom CSS (for frequency bar animation)
+- [Netlify](https://www.netlify.com/) for deployment
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 📂 Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+src/
+│
+├── components/
+│ ├── Navbar.jsx
+│ ├── Footer.jsx
+│ ├── About.jsx
+│ ├── SpeechRecognitionBox.jsx
+│ └── FrequencyBar.jsx
+│
+├── App.jsx
+├── index.js
+└── styles/
+└── SpeechRecognitionBox.css
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Installation
 
-## Learn More
+1. Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/VishnuNakade/web-speech-app.git
+cd web-speech-app
+npm install
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🙋‍♂️ Author
+Vishnu Sharad Nakade
+🌐 Portfolio
+📧 Contact Me
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
